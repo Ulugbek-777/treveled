@@ -49,11 +49,17 @@
 
 ul li {
     list-style: none;
+    transition: .5s;
+
 }
 
 a {
     text-decoration: none;
     color: #fff;
+}
+
+ul li:hover {
+    transform: scale(1.1);
 }
 
 button {
@@ -68,6 +74,14 @@ button {
     border-radius: 5px;
     border: none;
     background: rgb(201, 69, 59);
+    transition: .5S;
+}
+
+.header button:hover {
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .title {
@@ -91,4 +105,369 @@ button {
     letter-spacing: 0%;
     text-align: left;
     padding: 40px 0;
+}
+
+/* ! main */
+
+/* * popular-location */
+
+.popular-location {
+    width: 1140px;
+    height: 688px;
+    margin: 230px 0;
+}
+
+.main-pl {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 43px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main-info {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    gap: 31px;
+}
+
+.card-block {
+    width: 360px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08);
+    transition: 0.5s;
+}
+
+.card-block:hover {
+    transform: scale(1.1);
+}
+
+.cards img {
+    border-radius: 10px 10px 0px 0px;
+    width: 360px;
+    height: 331px;
+}
+
+.card-text {
+    width: 306px;
+    height: 101px;
+    padding: 33px 40px;
+}
+
+.card-text h2 {
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.card-text .country {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 30px;
+}
+
+/* * special-offers*/
+
+.main-so {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 43px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ticket {
+    display: flex;
+
+}
+
+.special-offers {
+    width: 100%;
+    height: 592px;
+    margin: 230px 0;
+}
+
+.ticket-country {
+    padding: 73px;
+    transition: .5s;
+}
+
+.ticket-country:hover {
+    transform: scale(1.1);
+}
+
+.ticket-country:first-child {
+    padding-left: 0;
+}
+
+.ticket-country:nth-child(5) {
+    padding-right: 0;
+}
+
+.city-info {
+    display: flex;
+}
+
+.ticket-country img {
+    border-radius: 10px;
+}
+
+.ticket-country h2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.loc {
+    color: red;
+}
+
+.star {
+    color: orange;
+}
+
+.city-info p:first-child {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.city-info p:last-child {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.time {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.price {
+    color: rgb(114, 114, 114);
+}
+
+.price b {
+    color: rgb(0, 0, 0);
+}
+
+.from-blog {
+    padding-bottom: 144px;
+}
+
+.main-fb {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 43px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.select {
+    display: flex;
+    margin-left: 110px;
+}
+
+.user-text {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.nature h2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.nature .nature-main-img {
+    width: 500px;
+    height: 350px;
+}
+
+.nature:first-child {
+    padding-right: 32px;
+    transition: .5s;
+}
+
+.nature-in {
+    padding-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    transition: .5s;
+}
+
+.nature-in img {
+    width: 220px;
+    height: 150px;
+}
+
+.nature-in-post {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nature-in-post h2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+
+.nature-in-post p {
+    color: rgb(114, 114, 114);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nature-in:hover {
+    transform: scale(1.05);
+}
+
+.nature:first-child:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    width: 100%;
+    height: 348px;
+    background: rgba(38, 148, 153, 0.04);
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 231px;
+}
+
+.trevelend {
+    width: 186px;
+    height: 178px;
+}
+
+.services {
+    width: 74px;
+    height: 200px;
+}
+
+.services p {
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.legal {
+    width: 158px;
+    height: 156px;
+}
+
+.legal p {
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.trevelend h2 {
+    padding-bottom: 40px;
+}
+
+.trevelend p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.footer-logo {
+    width: 230px;
+    height: 100px;
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo span {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.footer-logo span:first-child {
+    background-color: blue;
+}
+
+.footer-logo span:nth-child(2) {
+    background-color: rgb(224, 35, 241);
+}
+
+.footer-logo span:nth-child(3) {
+    background-color: rgb(0, 162, 255);
+}
+
+.footer-logo span:last-child {
+    background-color: #000;
+}
+
+.sub-now {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sign-in {
+    padding-top: 30px;
+}
+
+.sign-in input {
+    padding: 12px 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+footer .btn {
+    cursor: pointer;
 }

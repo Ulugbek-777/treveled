@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
@@ -15,46 +16,263 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/Trevland web-site/style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <!-- Navbar start -->
+    <!-- ! Navbar start -->
     <div class="header">
         <div class="nav">
             <div class="container">
-                <div class="nav-row">
-                    <h1 class="name">Trevland</h1>
-                    <ul class="nav-menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <div class="btn-block">
-                        <button>Shop now</button>
+                <div data-aos="fade-down" data-aos-duration="2000">
+                    <div class="nav-row">
+                        <h1 class="name">Trevland</h1>
+                        <ul class="nav-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="location.html">Location</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="btn-block">
+                            <button>Shop now</button>
+                        </div>
                     </div>
-                </div>
-                <div class="content">
-                    <h1 class="title">Railtrips To Here, <br>
-                        There And Everywhere!
-                    </h1>
+                    <div class="content">
+                        <h1 class="title">Railtrips To Here, <br>
+                            There And Everywhere!
+                        </h1>
 
-                    <p class="info">We all wish to start our year the best way possible and <br>
-                        also according to a common belief if you have a great <br>
-                        start to your.
-                    </p>
+                        <p class="info">We all wish to start our year the best way possible and <br>
+                            also according to a common belief if you have a great <br>
+                            start to your.
+                        </p>
 
-                    <button class="btn">Explore more</button>
+                        <button class="btn">Explore more</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navbar end -->
+    <!-- ? Navbar end -->
+
+    <!-- ! Main start -->
+    <main>
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="container">
+                <div class="popular-location">
+                    <h1 class="main-pl">Poplar Location</h1>
+                    <p class="main-info info">For every one of us, travel came first. We've spent years living as
+                        nomads,
+                        pioneers, and <br>
+                        voyagers— from island hopping in the
+                    </p>
+                    <div class="cards">
+                        <div class="card-block">
+                            <img src="istanbul.png" alt="Istanbul">
+                            <div class="card-text">
+                                <h2>Istanbul, Turkey</h2>
+                                <p class="country">Istanbul is a major city in Turkey that straddles Europe.</p>
+                            </div>
+                        </div>
+                        <div class="card-block">
+                            <img src="malaysia.png" alt="Malaysia">
+                            <div class="card-text">
+                                <h2>Kuala Lumpur, malaysia</h2>
+                                <p class="country">A 272-step long trek leads you to this century.</p>
+                            </div>
+                        </div>
+                        <div class="card-block">
+                            <img src="Korea.png" alt="Korea">
+                            <div class="card-text">
+                                <h2>Seoul, South Korea</h2>
+                                <p class="country">South Korea officially the Republic of Korea is a country in East
+                                    Asia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="special-offers">
+                <h1 class="main-so">Special Offers</h1>
+                <p class="main-info info">With the New Year comes a refreshing sense of wanderlust, a longing in our
+                    souls
+                    <br>
+                    to escape to warmer climates,
+                </p>
+                <div class="ticket">
+                    <div class="ticket-country">
+                        <img src="usa-best-places-new-york 1.png" alt="" class="city-photo">
+                        <h2>Statue of Liberty.</h2>
+                        <div class="city-info">
+                            <p class="city-info-text"><span class="loc"><ion-icon name="pin"></ion-icon></span>New York
+                            </p>
+                            <p class="city-info-text"><span class="star"><ion-icon name="star"></ion-icon></span> 4.8
+                            </p>
+                        </div>
+                        <p class="time">4 Day 5 Nights</p>
+                        <p class="price"><b>$450</b>/person</p>
+                    </div>
+                    <div class="ticket-country">
+                        <img src="china-great-wall-and-mountain 1.png" alt="" class="city-photo">
+                        <h2>The Great Wall</h2>
+                        <div class="city-info">
+                            <p class="city-info-text"><span class="loc"><ion-icon name="pin"></ion-icon></span>China</p>
+                            <p class="city-info-text"><span class="star"><ion-icon name="star"></ion-icon></span>4.9</p>
+                        </div>
+                        <p class="time">7 Day 8 Nights</p>
+                        <p class="price"><b>$850</b>/person</p>
+                    </div>
+                    <div class="ticket-country">
+                        <img src="Discover-sajek-valley 2.png" alt="" class="city-photo">
+                        <h2>Dizin</h2>
+                        <div class="city-info">
+                            <p class="city-info-text"><span class="loc"><ion-icon name="pin"></ion-icon></span>Iran</p>
+                            <p class="city-info-text"><span class="star"><ion-icon name="star"></ion-icon></span>4.6</p>
+                        </div>
+                        <p class="time">5 Day 6 Nights</p>
+                        <p class="price"><b>$550</b>/person</p>
+                    </div>
+                    <div class="ticket-country">
+                        <img src="Discover-sajek-valley 1.png" alt="" class="city-photo">
+                        <h2>Sajek Valley</h2>
+                        <div class="city-info">
+                            <p class="city-info-text"><span class="loc"><ion-icon
+                                        name="pin"></ion-icon></span>Bangladesh
+                            </p>
+                            <p class="city-info-text"><span class="star"><ion-icon name="star"></ion-icon></span>4.7</p>
+                        </div>
+                        <p class="time">3 Day 4 Nights</p>
+                        <p class="price"><b>$400</b>/person</p>
+                    </div>
+                    <div class="ticket-country">
+                        <img src="Discover-sajek-valley 3.png" alt="" class="city-photo">
+                        <h2>Osaka Castle</h2>
+                        <div class="city-info">
+                            <p class="city-info-text"><span class="loc"><ion-icon name="pin"></ion-icon></span>Japan</p>
+                            <p class="city-info-text"><span class="star"><ion-icon name="star"></ion-icon></span>4.7</p>
+                        </div>
+                        <p class="time">4 Day 5 Nights</p>
+                        <p class="price"><b>$700</b>/person</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="container">
+                <div class="from-blog">
+                    <h1 class="main-fb">From Blog & News</h1>
+                    <p class="main-info info">Welcome to Community Conversations, a new interview series featuring <br>
+                        Intrepid travellers, creatives and activists in our community.
+                    </p>
+
+                    <div class="select">
+                        <div class="nature">
+                            <img class="nature-main-img" src="canada-ontario-niagara-falls-2 1.png" alt="">
+                            <h2>Banff National Park</h2>
+                            <p class="user-text">Banff National Park lies in the heart of the majestic Rocky <br>
+                                Mountains in the province of Alberta, and showcases <br>
+                                some of Canada's most beautiful scenery. <br>
+                                Turquoise-colored lakes, snow-capped peaks, and glaciers <br>
+                                are all easily accessible
+                            </p>
+                            <h2>@thomasalva_adison</h2>
+                        </div>
+                        <div class="nature">
+                            <div class="nature-in">
+                                <img src="hiroshima-japan-1500-1100x825 1.png" alt="">
+                                <div class="nature-in-post">
+                                    <h2>The Hiroshima Peace!</h2>
+                                    <p>It was formally opened to the <br>
+                                        public in August that year.
+                                    </p>
+                                    <h2>@shova_bd88</h2>
+                                </div>
+                            </div>
+                            <div class="nature-in">
+                                <img src="india-top-attractions-varanasi 1.png" alt="">
+                                <div class="nature-in-post">
+                                    <h2>The faithful prayers!</h2>
+                                    <p>A major pilgrimage center for <br>
+                                        Hindus, the holy city.
+                                    </p>
+                                    <h2>@adem/smith</h2>
+                                </div>
+                            </div>
+                            <div class="nature-in">
+                                <img src="Naltar-lake-pakistan 1.png" alt="">
+                                <div class="nature-in-post">
+                                    <h2>Colourful waters!</h2>
+                                    <p>Forest-driven water and energy <br>
+                                        cycles are poorly.
+                                    </p>
+                                    <h2>@jhon7leew</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ? Main end -->
+
+    <!-- ! Footer start -->
+
+    <div data-aos="fade-down" data-aos-duration="2000">
+        <footer>
+            <div class="trevelend">
+                <h2>Trevland</h2>
+                <p>Contact us</p>
+                <p>@shovasatkhira88.com</p>
+                <div class="footer-logo">
+                    <span><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span><ion-icon name="logo-twitter"></ion-icon></span>
+                    <span><ion-icon name="logo-google"></ion-icon></span>
+                </div>
+            </div>
+            <div class="services">
+                <p>Services</p>
+                <p>About</p>
+                <p>Our story</p>
+                <p>Benefits</p>
+                <p>Branding</p>
+            </div>
+            <div class="legal">
+                <p>Legal</p>
+                <p>Terms & Conditions</p>
+                <p>Privecy Policy</p>
+                <p>Terms of use</p>
+            </div>
+            <div class="sub-now">
+                <h2>SUBSCRIBE NOW</h2>
+                <div class="sign-in">
+                    <input type="text" placeholder="Email">
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ! Footer end -->
+
+    <!-- ? Logo JS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- * Animation JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
